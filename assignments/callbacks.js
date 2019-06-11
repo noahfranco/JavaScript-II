@@ -11,7 +11,7 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
   }
 
   // Potential Solution:
-
+  
   // Higher order function using "cb" as the call back
   function firstItem(arr, cb) {
     return cb(arr[0]);
@@ -27,7 +27,14 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
 function getLength(arr, cb) {
   // getLength passes the length of the array into the callback.
+  for (let thisIsKillingMe = 0; thisIsKillingMe < item.length; i++ ) {
+    return cd(arr[thisIsKillingMe]); 
+  }
 }
+
+console.log(item); 
+
+
 
 function last(arr, cb) {
   // last passes the last item of the array into the callback.
